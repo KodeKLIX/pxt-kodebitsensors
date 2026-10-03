@@ -1,7 +1,7 @@
 {
     "name": "KodeBit-Sensors",
     "version": "1.0.0",
-    "description": "Extension for Dxxztoys Servo",
+    "description": "Extension for Sensors",
     "license": "MIT",
     "dependencies": {
         "core": "*"
