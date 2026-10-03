@@ -1,7 +1,7 @@
 /**
  * Four Digit Display (TM1637) Package.
  */
-//% weight=23 color=#50A820 icon="\uf1bb"
+//% weight=23 color=#50A820 icon="\uf1ec"
 //% blockId="TM1637" block="Digital LED module"
 namespace TM1637 {
     let TM1637_CMD1 = 0x40;
