@@ -23,7 +23,7 @@ namespace Joystick {
     //% blockId=cbit_Rocker block="Joystick | Pin VRX %pin1| Pin VRY %pin2| Pin SW %pin3| return %value"
     //% weight=100
     //% blockGap=10
-    //% color="#808080"
+    //% color="#50A820"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=6
     export function Rocker(pin1: AnalogPin, pin2: AnalogPin, pin3: AnalogPin, value: enRocker): boolean {
 
