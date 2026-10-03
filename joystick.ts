@@ -1,7 +1,7 @@
 /**
  * Control micro Joystick
  */
-//% color="#808080" weight=23 icon="\uf0b2" blockGap=8
+//% weight=23 color=#50A820 icon="\uf0b2" blockGap=8
 //% blockId="Joystick" block="Joystick module"
 namespace Joystick {
 
