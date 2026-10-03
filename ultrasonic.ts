@@ -1,3 +1,8 @@
+/**
+ * Sonar and ping utilities
+ */
+//% color="#41BEB9" weight=24 icon="\uf101"
+//% blockId="sonar" block="Ultrasonic module"
 enum PingUnit {
     //% block="microseconds"
     MicroSeconds,
@@ -7,11 +12,6 @@ enum PingUnit {
     Inches
 }
 
-/**
- * Sonar and ping utilities
- */
-//% color="#41BEB9" weight=24 icon="\uf101"
-//% blockId="sonar" block="Ultrasonic module"
 namespace sonar {
 	//% color=#41BEB9 weight=24 icon="\uf101"
     //% blockId=sonar_ping block="Pin Trig %trig| Pin Echo %echo| units %unit"
