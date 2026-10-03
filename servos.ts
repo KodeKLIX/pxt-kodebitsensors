@@ -1,7 +1,7 @@
 /**
  * Control micro servos
  */
-//% color="#03AA74" weight=24 icon="\uf021" blockGap=8
+//% color="#41BEB9" weight=24 icon="\uf021" blockGap=8
 //% blockId="servos" block="Servo module"
 namespace servos {
     //% weight=50
