@@ -1,6 +1,6 @@
 {
     "name": "KodeBit-Sensors",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Extension for Sensors Pack",
     "license": "MIT",
     "dependencies": {
