@@ -13,7 +13,7 @@ enum PingUnit {
 //% color="#2c3e50" weight=24 icon="\uf101"
 //% blockId="sonar" block="Ultrasonic module"
 namespace sonar {
-	//% color=#2c3e50 weight=24 icon="\uf101"
+	//% color=#41BEB9 weight=24 icon="\uf101"
     //% blockId=sonar_ping block="Pin Trig %trig| Pin Echo %echo| units %unit"
     export function ping(trig: DigitalPin, echo: DigitalPin, unit: PingUnit, maxCmDistance = 500): number {
         // send pulse
