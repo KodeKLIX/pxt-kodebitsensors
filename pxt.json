@@ -1,0 +1,21 @@
+{
+    "name": "KodeBit-Sensors",
+    "version": "1.0.0",
+    "description": "Extension for Dxxztoys Servo",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "servos.ts"
+	"ultrasonic.ts"
+	"joystick.ts"
+	"digitalled.ts"
+	"digitalpot.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
