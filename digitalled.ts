@@ -167,7 +167,7 @@ namespace TM1637 {
          * @param bit is the position, eg: 1
          * @param show is show/hide dp, eg: true
          */
-        //% blockId="TM1637_showDP" block="%tm| After digit %bit| display point %show"
+        //% blockId="TM1637_showDP" block="%tm| Display point %show"
         //% weight=70 blockGap=8
         //% parts="TM1637"
         showDP(bit: number = 1, show: boolean = true) {
