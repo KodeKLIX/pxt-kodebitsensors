@@ -9,9 +9,9 @@ let rotateReady = true;
 
 enum RotationDirection {
     //% blockId="Left" block="Left"
-    Left = 0,
+    Left = 1,
     //% blockId="Right" block="Right"
-    Right = 1
+    Right = 0
 }
 
 //% weight=23 color=#50A820 
