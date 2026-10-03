@@ -127,7 +127,7 @@ namespace TM1637 {
           * show a number. 
           * @param num is a number, eg: 0
           */
-        //% blockId="TM1637_shownum" block="FourDigit| Display numbers %num"
+        //% blockId="TM1637_shownum" block="%FourDigit| Display numbers %num"
         //% weight=91 blockGap=8
         //% parts="TM1637"
         showNumber(num: number) {
