@@ -170,10 +170,10 @@ namespace TM1637 {
         //% blockId="TM1637_showDP" block="%FourDigit| Display point %show"
         //% weight=70 blockGap=8
         //% parts="TM1637"
-        showDP(bit: number = 1, show: boolean = true) {
-            bit = bit % this.count
-            if (show) this._dat(bit, this.buf[bit] | 0x80)
-            else this._dat(bit, this.buf[bit] & 0x7F)
+        showDP(show: boolean = true) {
+            bit = 1 % this.count
+            if (show) this._dat(1, this.buf[1] | 0x80)
+            else this._dat(1, this.buf[1] & 0x7F)
         }
 
         /**
