@@ -179,7 +179,7 @@ namespace TM1637 {
         /**
          * clear LED. 
          */
-        //% blockId="TM1637_clear" block="Clear Display %tm"
+        //% blockId="TM1637_clear" block="Clear display %tm"
         //% weight=80 blockGap=8
         //% parts="TM1637"
         clear() {
