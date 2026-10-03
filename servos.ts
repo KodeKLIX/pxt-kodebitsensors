@@ -5,7 +5,7 @@
 //% blockId="servos" block="Servo module"
 namespace servos {
     //% weight=50
-    //% blockId=servoservosetangle18 block="Setup 180°Servo %servo angle %degrees °"
+    //% blockId=servoservosetangle18 block="Set 180°Servo %servo angle %degrees °"
     //% degrees.defl=90
     //% degrees.min=0 degrees.max=180
     //% blockGap=8
@@ -23,7 +23,7 @@ namespace servos {
         pins.servoSetPulse(servo2, pulse)
     }
     //% weight=20
-    //% blockId=servoservosetspeed36 block="Setup 360°Servo %servo speed %speed ％"
+    //% blockId=servoservosetspeed36 block="Set 360°Servo %servo speed %speed ％"
     //% speed.defl=50
     //% speed.min=-100 speed.max=100
     //% blockGap=8
@@ -33,7 +33,7 @@ namespace servos {
         else if(speed < 0) pins.servoSetPulse(servo, Math.map(speed, -100, -1, 500, 1460))
     }
     //% weight=10
-    //% blockId=servoservosetstop36 block="Setup 360°Servo %servo stop "
+    //% blockId=servoservosetstop36 block="Set 360°Servo %servo stop "
     //% blockGap=8
     export function Servo_360stop(servo: AnalogPin): void {
         // send pulse
