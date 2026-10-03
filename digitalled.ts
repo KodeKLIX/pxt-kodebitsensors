@@ -115,7 +115,7 @@ namespace TM1637 {
          * @param num number will show, eg: 5
          * @param bit the position of the LED, eg: 0
          */
-        //% blockId="TM1637_showbit" block="%tm| At the %bit| Display %num "
+        //% blockId="TM1637_showbit" block="%tm| At digit %bit| display %num "
         //% weight=90 blockGap=8
         //% parts="TM1637"
         showbit(bit: number = 0, num: number = 5) {
@@ -127,7 +127,7 @@ namespace TM1637 {
           * show a number. 
           * @param num is a number, eg: 0
           */
-        //% blockId="TM1637_shownum" block="%tm| Diplay Numbers %num"
+        //% blockId="TM1637_shownum" block="%tm| Display numbers %num"
         //% weight=91 blockGap=8
         //% parts="TM1637"
         showNumber(num: number) {
@@ -167,7 +167,7 @@ namespace TM1637 {
          * @param bit is the position, eg: 1
          * @param show is show/hide dp, eg: true
          */
-        //% blockId="TM1637_showDP" block="%tm| At the %bit| digit display point %show"
+        //% blockId="TM1637_showDP" block="%tm| After digit %bit| display point %show"
         //% weight=70 blockGap=8
         //% parts="TM1637"
         showDP(bit: number = 1, show: boolean = true) {
