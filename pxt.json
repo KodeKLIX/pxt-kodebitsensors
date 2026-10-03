@@ -11,7 +11,8 @@
         "servos.ts",
 	    "ultrasonic.ts",
 	    "joystick.ts",
-	    "digitalled.ts"
+	    "digitalled.ts",
+		"digitalpot.ts"
     ],
     "testFiles": [
         "test.ts"
