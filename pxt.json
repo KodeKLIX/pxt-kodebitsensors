@@ -8,11 +8,11 @@
     },
     "files": [
         "README.md",
-        "servos.ts"
-	"ultrasonic.ts"
-	"joystick.ts"
-	"digitalled.ts"
-	"digitalpot.ts"
+        "servos.ts",
+	    "ultrasonic.ts",
+	    "joystick.ts",
+	    "digitalled.ts",
+	    "digitalpot.ts"
     ],
     "testFiles": [
         "test.ts"
