@@ -14,7 +14,7 @@ enum RotationDirection {
     Right = 1
 }
 
-//% color=50 weight=22
+//% weight=23 color=#50A820 
 //% icon="\uf01e"
 //% blockId="RotaryEncoder" block="Rotary encoder module"
 namespace RotaryEncoder {
