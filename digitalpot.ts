@@ -3,8 +3,8 @@ let dv: DigitalPin;
 let dsw: DigitalPin;
 let lastPressed = 1;
 let pressedID = 5600;
-let rotatedLeftID = 5601;
-let rotatedRightID = 5602;
+let rotatedLeftID = 5602;
+let rotatedRightID = 5601;
 let rotateReady = true;
 
 enum RotationDirection {
