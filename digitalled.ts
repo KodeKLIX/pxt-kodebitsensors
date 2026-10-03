@@ -83,7 +83,7 @@ namespace TM1637 {
          * set TM1637 intensity, range is [0-8], 0 is off.
          * @param val the brightness of the TM1637, eg: 7
          */
-        //% blockId="TM1637_set_intensity" block="%tm| Set Brightness %val"
+        //% blockId="TM1637_set_intensity" block="%FourDigit| Set Brightness %val"
         //% weight=50 blockGap=8
         //% parts="TM1637"
         intensity(val: number = 7) {
@@ -115,7 +115,7 @@ namespace TM1637 {
          * @param num number will show, eg: 5
          * @param bit the position of the LED, eg: 0
          */
-        //% blockId="TM1637_showbit" block="%tm| At digit %bit| display %num "
+        //% blockId="TM1637_showbit" block="%FourDigit| At digit %bit| display %num "
         //% weight=90 blockGap=8
         //% parts="TM1637"
         showbit(bit: number = 0, num: number = 5) {
@@ -127,7 +127,7 @@ namespace TM1637 {
           * show a number. 
           * @param num is a number, eg: 0
           */
-        //% blockId="TM1637_shownum" block="%tm| Display numbers %num"
+        //% blockId="TM1637_shownum" block="FourDigit| Display numbers %num"
         //% weight=91 blockGap=8
         //% parts="TM1637"
         showNumber(num: number) {
@@ -147,7 +147,7 @@ namespace TM1637 {
           * show a hex number. 
           * @param num is a hex number, eg: 0
           */
-        //% blockId="TM1637_showhex" block="%tm| Display hexadecimal numbers %num"
+        //% blockId="TM1637_showhex" block="%FourDigit| Display hexadecimal numbers %num"
         //% weight=90 blockGap=8
         //% parts="TM1637"
         showHex(num: number) {
@@ -167,7 +167,7 @@ namespace TM1637 {
          * @param bit is the position, eg: 1
          * @param show is show/hide dp, eg: true
          */
-        //% blockId="TM1637_showDP" block="%tm| Display point %show"
+        //% blockId="TM1637_showDP" block="%FourDigit| Display point %show"
         //% weight=70 blockGap=8
         //% parts="TM1637"
         showDP(bit: number = 1, show: boolean = true) {
@@ -179,7 +179,7 @@ namespace TM1637 {
         /**
          * clear LED. 
          */
-        //% blockId="TM1637_clear" block="Clear display %tm"
+        //% blockId="TM1637_clear" block="Clear display %FourDigit"
         //% weight=80 blockGap=8
         //% parts="TM1637"
         clear() {
@@ -192,7 +192,7 @@ namespace TM1637 {
         /**
          * turn on LED. 
          */
-        //% blockId="TM1637_on" block="Turn ON display %tm"
+        //% blockId="TM1637_on" block="Turn ON display %FourDigit"
         //% weight=86 blockGap=8
         //% parts="TM1637"
         on() {
@@ -204,7 +204,7 @@ namespace TM1637 {
         /**
          * turn off LED. 
          */
-        //% blockId="TM1637_off" block="Turn OFF display %tm"
+        //% blockId="TM1637_off" block="Turn OFF display %FourDigit"
         //% weight=85 blockGap=8
         //% parts="TM1637"
         off() {
