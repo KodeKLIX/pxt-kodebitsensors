@@ -1,6 +1,6 @@
 {
     "name": "KodeBit-Sensors",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "Extension for Sensors Pack",
     "license": "MIT",
     "dependencies": {
@@ -11,7 +11,8 @@
         "servos.ts",
 	    "ultrasonic.ts",
 	    "joystick.ts",
-	    "digitalled.ts"
+	    "digitalled.ts",
+		"digitalpot.ts"
     ],
     "testFiles": [
         "test.ts"
