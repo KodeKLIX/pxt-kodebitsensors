@@ -26,24 +26,24 @@ namespace RotaryEncoder {
     //% blockId=rotary_ky_rotated_left_event
     //% block="Rotate to |%dir"
     export function onRotateEvent(dir: RotationDirection, body: () => void): void {
-        serial.setBaudRate(115200);
+        //serial.setBaudRate(115200);
         if (dir == RotationDirection.Left) control.onEvent(rotatedLeftID, dir, body);
         if (dir == RotationDirection.Right) control.onEvent(rotatedRightID, dir, body);
         control.inBackground(() => {
             while (true) {
                 const riValue = pins.digitalReadPin(ri);
                 const dvValue = pins.digitalReadPin(dv);
-                serial.writeValue("ri", riValue);
-                serial.writeValue("dv", dvValue);
+                //serial.writeValue("ri", riValue);
+                //serial.writeValue("dv", dvValue);
                 if (riValue == 1 && dvValue == 1) rotateReady = true;
                 else if (rotateReady) {
                     if (riValue == 1 && dvValue == 0) {
-                        serial.writeLine("Right!");
+                        //serial.writeLine("Right!");
                         rotateReady = false;
                         control.raiseEvent(rotatedRightID, RotationDirection.Right);
                     }
                     else if (riValue == 0 && dvValue == 1) {
-                        serial.writeLine("Left!")
+                        //serial.writeLine("Left!")
                         rotateReady = false;
                         control.raiseEvent(rotatedLeftID, RotationDirection.Left);
                     }
